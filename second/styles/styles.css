@@ -1,0 +1,130 @@
+h2,p{
+    margin: 0;
+}
+.window {
+  height: auto;
+  width: 400px;
+  margin: auto;
+  background-color: #36393e;
+}
+.header {
+  width: 100%;
+  display: flex;
+  background-color: #36393e;
+}
+img {
+  width: 16px;
+  height: 16px;
+}
+h1 {
+  font-size: 12px;
+  margin: auto;
+  color: azure;
+}
+.logo {
+  margin: 5px 0 0 5px;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.right-pannel {
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 0 10px 0 10px;
+  display: block;
+}
+.right-pannel:hover{
+    opacity: 50%;
+}
+.pannel {
+  padding: 5px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.search-container{
+    padding: 0 4px;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  background-color: #161920;
+  padding: 10px;
+}
+.menu {
+  padding: 8px 0;
+  width: 50px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu div {
+  border-bottom: 10px double #60636a;
+  border-top: 3px solid #60636a;
+  content: "";
+  height: 5px;
+  width: 20px;
+}
+.menu div:hover {
+  cursor: pointer;
+  border-bottom: 10px double white;
+  border-top: 3px solid white;
+  content: "";
+  height: 5px;
+  width: 20px;
+}
+.search-panel{
+    display: flex;
+    width: 100%;
+}
+
+.input-line {
+  background: #242831;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+}
+.message-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 4px 4px 4px;
+}
+.message-block{
+    padding: 10px;
+    display: flex;
+    background-color: #161920;
+}
+.message-block:hover{
+    cursor: pointer;
+    background-color: #3e4452;
+
+}
+.message-logo{
+    min-width: 50px;
+    height: 50px;
+margin-right: 10px;
+}
+.chat-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #0f13e2;
+}
+
+.message-content h2{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: white;
+}
+.message-content p{
+    color: white;
+}
