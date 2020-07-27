@@ -1,20 +1,20 @@
 @font-face {
-  font-family: "Stolzl";
-  src: local("Stolzl Light"), local("Stolzl-Light"), url("Stolzl-Light.woff2") format("woff2"),
-    url("Stolzl-Light.woff") format("woff"), url("Stolzl-Light.ttf") format("truetype");
+  font-family: "Stolzl light";
+  src: local("Stolzl Light"), local("Stolzl-Light"), url("../fonts/Stolzl-Light.woff2") format("woff2"),
+    url("../fonts/Stolzl-Light.woff") format("woff"), url("../fonts/Stolzl-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
-  font-family: "Stolzl";
-  src: local("Stolzl Thin"), local("Stolzl-Thin"), url("Stolzl-Thin.woff2") format("woff2"),
-    url("Stolzl-Thin.woff") format("woff"), url("Stolzl-Thin.ttf") format("truetype");
+  font-family: "Stolzl Thin";
+  src: local("Stolzl Thin"), local("Stolzl-Thin"), url("../fonts/Stolzl-Thin.woff2") format("woff2"),
+    url("../fonts/Stolzl-Thin.woff") format("woff"), url("../fonts/Stolzl-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 body {
-  font-family: Stolzl, sans-serif;
-  font-weight: 100;
+  font-family: 'Stolzl light', sans-serif;
+  font-weight: 300;
 }
 .container {
   width: 100%;
@@ -36,12 +36,14 @@ header {
   padding-top: 25px;
 }
 .logo {
+  font-family: 'Stolzl Thin', sans-serif;
   font-weight: 100;
   font-size: 25px;
   color: #555c6f;
 }
 
 .nav a {
+  font-family: 'Stolzl Thin', sans-serif;
   color: #555c6f;
   text-decoration: none;
   font-size: 16px;
@@ -53,6 +55,7 @@ header {
   color: white;
 }
 h1 {
+  font-family: 'Stolzl light', sans-serif;
   text-align: center;
   font-size: 38px;
   color: #555c6f;
@@ -95,15 +98,15 @@ h1 {
   padding: 45px;
 }
 .text_block h2{
+  font-family: 'Stolzl Thin', sans-serif;
   font-size: 38px;
-  font-weight: 300;
   margin-top: 45px;
   margin-left: 35px;
   color: #555c6f;
 }
 .text_block p{
+  font-family: 'Stolzl light', sans-serif;
   font-size: 18px;
-  font-weight: 100;
   line-height: 1.5;
   margin-top: 70px;
   margin-right: 170px;
@@ -126,12 +129,12 @@ h1 {
   margin-top: 17%;
 }
 ol{
+  font-family: 'Stolzl light', sans-serif;
   list-style: decimal;
   margin-top: 70px;
   margin-left: 45px;
   font-size: 18px;
   line-height: 1.3;
-  font-weight: 100;
   color: #555c6f;
 }
 
@@ -147,6 +150,7 @@ ol{
   margin-top: 17%;
 }
 form{
+  font-family: 'Stolzl light', sans-serif;
   margin-top: 50px;
   width: 500px;
 }
@@ -202,6 +206,7 @@ footer{
   text-align: center;
 }
 footer h2{
+  font-family: 'Stolzl Thin', sans-serif;
   padding-top: 55px;
   font-weight: 100;
 font-size: 38px;
@@ -210,6 +215,7 @@ color: #555c6f;
 .footer_content{
   display: flex;
   justify-content: space-between;
+  font-family: 'Stolzl light', sans-serif;
   margin: 90px 320px 0;
   color: #555c6f;
   font-size: 12px;
@@ -218,6 +224,7 @@ color: #555c6f;
   padding: 0 55px 38px;
 }
 .footer_bottom{
+  font-family: 'Stolzl light', sans-serif;
   display: flex;
   justify-content: space-between;
   color: #555c6f;
@@ -230,10 +237,12 @@ color: #555c6f;
   margin: 0 265px;
 }
 .footer_bottom p{
+  font-family: 'Stolzl light', sans-serif;
   font-size: 10px;
   font-weight: 300;
 }
 .footer_logo{
+  font-family: 'Stolzl Thin', sans-serif;
   font-size: 16px;
   font-weight: 100;
 }
