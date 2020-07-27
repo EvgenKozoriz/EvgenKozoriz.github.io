@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebCor</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="head">
+          <div id="head" class="logo">
+            WebCor
+          </div>
+          <div class="nav">
+            <a href="#about">About us</a>
+            <a href="#services">Services</a>
+            <a href="#send">Send prices</a>
+            <a href="#footer">Contacs</a>
+          </div>
+        </div>
+        <h1>
+          Web Studio WebCor.<br />
+          Welcome to us :)
+        </h1>
+        <div class="navigation">
+          <a href="#head"><div class="actived"></div></a>
+          <a href="#about"><div class="element"></div></a>
+          <a href="#services"><div class="element"></div></a>
+          <a href="#send"><div class="element"></div></a>
+          <a href="#footer"><div class="element"></div></a>
+        </div>
+      </header>
+      <div class="content_container">
+        <img class="second_img" src="images/img1.png" alt="изображение" />
+        <div class="text_block">
+          <h2 id="about">About us</h2>
+          <p>
+            We are engaged in the development of sites, mobile applications and SEO optimization.
+            More than 83% of our customers come to us again and work with us for many years.
+          </p>
+          <p>
+            We are confident that the agency and the client can work as a team to achieve joint
+            results.
+          </p>
+        </div>
+        <div class="navigation">
+          <a href="#head"><div class="element"></div></a>
+          <a href="#about"><div class="actived"></div></a>
+          <a href="#services"><div class="element"></div></a>
+          <a href="#send"><div class="element"></div></a>
+          <a href="#footer"><div class="element"></div></a>
+        </div>
+      </div>
+      <div class="content_container1">
+        <div class="text_block">
+          <h2 id="services">Services</h2>
+          <ol type="1" start="1">
+            <li>Creation of online stores</li>
+            <li>Wholesale B2B online stores</li>
+            <li>Mobile, responsive sites</li>
+            <li>Mobile applications</li>
+            <li>Ready sites and shops</li>
+            <li>Prototypes UX, UI, mobile</li>
+            <li>Corporate identity and logos</li>
+            <li>Promotion and advertising</li>
+            <li>Online Sales Analytics</li>
+          </ol>
+        </div>
+        <img class="third_img" src="images/img2.png" alt="изображение" />
+        <div class="navigation">
+          <a href="#head"><div class="element"></div></a>
+          <a href="#about"><div class="element"></div></a>
+          <a href="#services"><div class="actived"></div></a>
+          <a href="#send"><div class="element"></div></a>
+          <a href="#footer"><div class="element"></div></a>
+        </div>
+      </div>
+      <div class="content_container2">
+        <img class="second_img" src="images/img3.png" alt="изображение" />
+        <div class="text_block">
+          <h2 id="send">Send prices</h2>
+          <form>
+            <label>What is your name?</label>
+            <input class="field" type="text" />
+            <label>Your contacts</label>
+            <input class="field" type="tel" />
+            <label>Describe your project and tasks</label>
+            <textarea></textarea>
+            <input class="button" type="submit" value="Send out" />
+          </form>
+        </div>
+        <div class="navigation">
+          <a href="#head"><div class="element"></div></a>
+          <a href="#about"><div class="element"></div></a>
+          <a href="#services"><div class="element"></div></a>
+          <a href="#send"><div class="actived"></div></a>
+          <a href="#footer"><div class="element"></div></a>
+        </div>
+      </div>
+      <footer id="footer">
+        <div class="navigation">
+          <a href="#head"><div class="element"></div></a>
+          <a href="#about"><div class="element"></div></a>
+          <a href="#services"><div class="element"></div></a>
+          <a href="#send"><div class="element"></div></a>
+          <a href="#footer"><div class="actived"></div></a>
+        </div>
+        <h2>Contacs</h2>
+        <div class="footer_content">
+          <div class="footer_link">
+            <p>vk.com/alexsoglaev</p>
+            <p>facebook.com/alexsoglaev</p>
+            <p>instagram.com/alexsoglaev</p>
+          </div>
+          <div class="footer_adress">
+            <p>3224 Clarence Ave<br />Berwyn, IL 60402<br />USA</p>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="footer_logo">WebCor</div>
+          <p>Design by Alex Soglaev</p>
+          <div class="icons">
+            <a href="https://twitter.com/" target="_blank"
+              ><img src="../fourth/images/Twitter.png" alt="twitter"
+            /></a>
+            <a href="https://www.google.com/" target="_blank"
+              ><img src="../fourth/images/Google.png" alt="google"
+            /></a>
+            <a href="https://www.linkedin.com/" target="_blank"
+              ><img src="../fourth/images/Linkedin.png" alt="linkedin"
+            /></a>
+            <a href="https://www.behance.net/" target="_blank"
+              ><img src="../fourth/images/Be.png" alt="behance"
+            /></a>
+            <a href="https://dribbble.com/" target="_blank"
+              ><img src="../fourth/images/Drible.png" alt="drible"
+            /></a>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img src="../fourth/images/Facebook.png" alt="facebook"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      $('a[href^="#"]').on("click", function (event) {
+        event.preventDefault();
+        scrollToElement($(this).attr("href"));
+      });
+    </script>
+  </body>
+</html>
